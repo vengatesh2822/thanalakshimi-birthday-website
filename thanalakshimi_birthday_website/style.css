@@ -927,10 +927,19 @@ footer {
     padding: 7px;
   }
 
-  .memory-image {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-  }
+.memory-image {
+width: 100%;
+height: auto;
+aspect-ratio: auto;
+overflow: hidden;
+}
+
+.memory-image img {
+display: block;
+max-width: 100%;
+object-fit: contain;
+}
+
 
   .memory-card p {
     font-size: .85rem;

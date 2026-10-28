@@ -427,7 +427,7 @@ function loadQuestion() {
     const answerInput = document.createElement("textarea");
 
     answerInput.id = "personalAnswer";
-    answerInput.placeholder = "Sollu Thanalakshimi... Apro Kandipa Itha Enaku SS Eduthu Annupiru O❤️";
+    answerInput.placeholder = "Sollu Thanalakshimi... Apro Kandipa Itha Enaku SS Eduthu Annupiru Ok❤️";
     answerInput.rows = 3;
 
     answerInput.style.width = "100%";
